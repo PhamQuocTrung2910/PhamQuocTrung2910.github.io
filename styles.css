@@ -29,12 +29,12 @@ h1,h2,h3{font-family:var(--serif);font-optical-sizing:auto}
 
 /* hero */
 .hero{padding-block:clamp(2.5rem,9vw,7rem) clamp(4rem,10vw,8rem)}
-h1{font-weight:850;font-size:clamp(2.8rem,12.4vw,10.5rem);line-height:.9;letter-spacing:-.04em;margin:1.6rem 0 clamp(2.2rem,6vw,4.5rem)}
+h1{font-weight:850;font-size:clamp(2.5rem,9.2vw,7.6rem);line-height:.96;letter-spacing:-.04em;margin:1.6rem 0 clamp(2.2rem,6vw,4.5rem)}
 h1 span{display:block;animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
 h1 span:nth-child(2){font-weight:300;font-style:italic;padding-left:clamp(1rem,13vw,12rem);animation-delay:.18s}
 h1 span:nth-child(3){color:var(--acc);font-weight:500;letter-spacing:-.03em;font-size:.62em;line-height:1.02;margin-top:.5em;max-width:14ch;animation-delay:.42s;transition:font-weight .5s}
 h1 span:nth-child(3):hover{font-weight:900}
-h1 .em{display:inline-block;font-size:.5em;vertical-align:.08em;font-style:normal;font-weight:400;letter-spacing:.1em;margin-left:.2em;transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+h1 .em{display:inline-block;font-size:.6em;vertical-align:.08em;font-style:normal;font-weight:400;letter-spacing:.1em;margin-left:.2em;transition:transform .3s cubic-bezier(.2,.8,.2,1)}
 h1 span:nth-child(3):hover .em{transform:translateY(-.14em) rotate(-10deg)}
 @keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
 .hero-foot{display:grid;gap:2.2rem;align-items:end}
